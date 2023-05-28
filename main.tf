@@ -39,7 +39,7 @@ variable "instance_type" {
 }
 
 variable "root_volume_size" {
-  default = 8
+  default = 2
 }
 
 variable "data_volume_size" {
