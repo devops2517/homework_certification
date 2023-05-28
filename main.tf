@@ -43,5 +43,5 @@ variable "root_volume_size" {
 }
 
 variable "data_volume_size" {
-  default = 20
+  default = 8
 }
