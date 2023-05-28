@@ -21,7 +21,6 @@ pipeline {
                     sh 'docker login -u $REGISTRY_USERNAME -p $REGISTRY_PASSWORD registry.example.com'
                 }
                 sh 'docker push registry.example.com/hello-app:v1.0.' + env.BUILD_NUMBER
-                // deploy container to staging
             }
         }
     }
